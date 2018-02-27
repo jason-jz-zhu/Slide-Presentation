@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classNames from 'classnames'
+import classNames from 'classnames';
 import Reveal from 'reveal.js';
 // import reveal
 import 'reveal.js/css/reveal.css';
@@ -21,6 +21,7 @@ class DataInfra extends Component {
             <p>
               <small>Created by <a href="https://jiazhenzhu.netlify.com/">Jiazhen Zhu</a></small>
             </p>
+            <h9>02/28/2018</h9>
           </section>
           {/* Questions Slide */}
           <section>

@@ -1,3 +1,8 @@
 .reveal section {
   display: block !important;
 }
+
+.reveal {
+  background: #002b36;
+  background-color: #002b36;
+}

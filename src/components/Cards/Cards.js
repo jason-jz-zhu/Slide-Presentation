@@ -7,18 +7,17 @@ import './Cards.css';
 class Cards extends Component {
   render() {
     const cards = this.props.data.map(itemList => (
-      
       <Card key={itemList.id} className="card">
-        <CardImg top width="100%" src='Data%20Infra.PNG' alt='photo'/>
-        <CardBody>
-          <CardTitle>Data Infrastructure</CardTitle>
-          <CardSubtitle>02/28/2018</CardSubtitle>
-          <CardText>Quick Overview for Data Infrastructure</CardText>
+        <CardImg top width="100%" src={itemList.image}  alt='photo'/>
+        <CardBody style = {itemList.style}>
+          <CardTitle>{itemList.title}</CardTitle>
+          <CardSubtitle>{itemList.subtitle}</CardSubtitle>
+          <CardText>{itemList.text}</CardText>
           <a href={itemList.link}><Button color='info'>READ MORE</Button></a>
         </CardBody>
       </Card>
     ));
-    
+
 
 
     return (

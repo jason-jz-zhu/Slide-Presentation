@@ -30,13 +30,13 @@ class Home extends Component {
       {
         id: 2,
         link: '/DataETL',
-        image: 'ETLProcess.png',
+        image: 'ETL workflow.jpg',
         title: 'BASIC ETL PROCESSING',
-        subtitle: '02/29/2018',
+        subtitle: '03/14/2018',
         text: 'Quick Overview for ETL',
         info: 'Slide',
         style: {
-          marginTop: '75px'
+          marginTop: '2px'
         }
       }
     ];

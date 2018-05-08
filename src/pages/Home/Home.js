@@ -38,6 +38,18 @@ class Home extends Component {
         style: {
           marginTop: '2px'
         }
+      },
+      {
+        id: 3,
+        link: '/DataPipeline',
+        image: 'Data Pipeline.png',
+        title: 'Data Pipeline',
+        subtitle: '05/09/2018',
+        text: 'Quick Overview for Data Pipeline',
+        info: 'Slide',
+        style: {
+          marginTop: '2px'
+        }
       }
     ];
     this.setState({

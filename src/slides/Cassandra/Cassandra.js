@@ -110,11 +110,10 @@ class DataPipeline extends Component {
                             <li>no leader election</li>
                             <li>read & write</li>
                         </ul>
+                    <li className={classNames('fragment', 'fade-up')}>Data is Partitioned</li>
+                    <li className={classNames('fragment', 'fade-up')}>Data is Replicated</li>
                     <li className={classNames('fragment', 'fade-up')}>Hash Ring </li>
-                        <ul className={classNames('fragment', 'fade-up')}>
-                            <li>Data is Partitioned</li>
-                            <li>Data is Replicated</li>
-                        </ul>
+
                 </ol>
             </section>
 
@@ -169,6 +168,17 @@ class DataPipeline extends Component {
                   <h2>Data Modeling - Workflow</h2>
                   <img width="824" height="267" data-src="cassandraworkflow.PNG"/>
               </section>
+
+              <section>
+                  <h2>Basic Table Knowledge</h2>
+                  <ul>
+                      <li>Keyspace in Cassandra is same as Schema in RDB</li>
+                      <li>Partition Key: determine the distribution of data across the system</li>
+                      <li>Clustering Columns: sort the data in sorted ascending</li>
+                      <li>Partition Key + Clustering Columns = Primary Key (Must be unique)</li>
+                  </ul>
+              </section>
+              
               <section>
                   <h2>Application - Workflow</h2>
                   <img width="701" height="417" data-src="applicationworkflow.PNG"/>

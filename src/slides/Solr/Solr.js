@@ -84,7 +84,7 @@ class DataPipeline extends Component {
 
             <section>
               <h2 style={{textAlign: 'centre'}}>Architecture</h2>
-              <img width="600" height="500" data-src="solr_inner_arch.PNG" align="left"/>
+              <img width="600" height="500" data-src="solr_inner_arch.PNG" align="centre"/>
             </section>
 
           </section>

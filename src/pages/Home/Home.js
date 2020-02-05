@@ -26,6 +26,15 @@ class Home extends Component {
         subtitle: '11/27/2019',
         text: 'Quick Overview for Cassandra',
         info: 'Slide',
+      },
+      {
+        id: 2,
+        link: '/Solr',
+        image: "solr.PNG",
+        title: 'Basic Solr',
+        subtitle: '02/05/2020',
+        text: 'Quick Overview for Solr',
+        info: 'Slide',
       }
       // {
       //   id: 1,

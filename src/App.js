@@ -7,6 +7,7 @@ import DataInfra from './slides/DataInfra/DataInfra';
 import DataETL from './slides/DataETL/DataETL';
 import DataPipeline from './slides/DataPipeline/DataPipeline';
 import Cassandra from './slides/Cassandra/Cassandra';
+import Solr from './slides/Solr/Solr';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path="/DataETL" component={DataETL} />
           <Route exact path="/DataPipeline" component={DataPipeline} />
           <Route exact path="/Cassandra" component={Cassandra} />
+          <Route exact path="/Solr" component={Solr} />
         </div>
       </div>
     );

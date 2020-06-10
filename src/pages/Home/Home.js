@@ -35,6 +35,15 @@ class Home extends Component {
         subtitle: '02/05/2020',
         text: 'Quick Overview for Solr',
         info: 'Slide',
+      },
+      {
+        id: 3,
+        link: '/Docker',
+        image: "docker.PNG",
+        title: 'Basic Docker',
+        subtitle: '06/11/2020',
+        text: 'Quick Overview for Docker',
+        info: 'Slide',
       }
       // {
       //   id: 1,

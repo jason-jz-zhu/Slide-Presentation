@@ -9,6 +9,7 @@ import DataPipeline from './slides/DataPipeline/DataPipeline';
 import Cassandra from './slides/Cassandra/Cassandra';
 import Solr from './slides/Solr/Solr';
 import Docker from './slides/Docker/Docker';
+import ModularizationDataPipeline from './slides/ModularizationDataPipeline/ModularizationDataPipeline'
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route exact path="/Cassandra" component={Cassandra} />
           <Route exact path="/Solr" component={Solr} />
           <Route exact path="/Docker" component={Docker} />
+          <Route exact path="/ModularizationDataPipeline" component={ModularizationDataPipeline} />
         </div>
       </div>
     );

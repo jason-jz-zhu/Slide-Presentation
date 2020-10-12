@@ -18,15 +18,15 @@ class Home extends Component {
 
   initData = () => {
     const cardsData = [
-      {
-        id: 1,
-        link: '/Cassandra',
-        image: "cassandralogo.PNG",
-        title: 'Basic Cassandra',
-        subtitle: '11/27/2019',
-        text: 'Quick Overview for Cassandra',
-        info: 'Slide',
-      },
+      // {
+      //   id: 1,
+      //   link: '/Cassandra',
+      //   image: "cassandralogo.PNG",
+      //   title: 'Basic Cassandra',
+      //   subtitle: '11/27/2019',
+      //   text: 'Quick Overview for Cassandra',
+      //   info: 'Slide',
+      // },
       {
         id: 2,
         link: '/Solr',
@@ -43,6 +43,15 @@ class Home extends Component {
         title: 'Basic Docker',
         subtitle: '06/11/2020',
         text: 'Quick Overview for Docker',
+        info: 'Slide',
+      },
+      {
+        id: 4,
+        link: '/ModularizationDataPipeline',
+        image: "ModularizationProfile.jpeg",
+        title: 'Modularization using Python and Docker for Data Pipeline',
+        subtitle: '10/14/2020',
+        text: 'A mini-guide about MicroService design for Data Pipeline',
         info: 'Slide',
       }
       // {

@@ -13,7 +13,7 @@
     "react-flip-move": "^3.0.1",
     "react-router-dom": "^4.2.2",
     "reactstrap": "^5.0.0-beta",
-    "reveal.js": "^3.6.0"
+    "reveal.js": "^3.9.2"
   },
   "scripts": {
     "start": "react-scripts start",
